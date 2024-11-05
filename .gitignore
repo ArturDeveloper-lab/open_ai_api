@@ -1,0 +1,52 @@
+# Ignore JetBrains IDE project settings
+.idea/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+.env/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore Windows system files
+desktop.ini
+
+# Ignore environment variable files (optional)
+.env
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.coverage.*
+.cache
+
+# Ignore mypy, pylintrc, or other linting results
+.mypy_cache/
+pylintrc
+
+# Ignore additional directories based on personal setup (optional)
